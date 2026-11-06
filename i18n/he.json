@@ -1,0 +1,61 @@
+{
+  "entete": {
+    "altLogo": "דף הבית", 
+    "placeholderRecherche": "חיפוש",
+    "menuTeeshirts": "חולצות טי",
+    "menuCasquettes": "כובעים",
+    "menuHoodies": "קפוצ'ונים",
+    "menuAide": "עזרה",
+    "menuNous": "אודותינו"
+  },
+  "pp": {
+    "achatsTitre": "הרכישות שלך",
+    "navAchatsFaq": "שאלות נפוצות",
+    "navAchatsLivraison": "משלוח החבילה שלך",
+    "navAchatsConditions": "תנאי המכירה",
+    "navAchatsConfidentialite": "מדיניות הפרטיות",
+    "aProposTitre": "אודות teeTIM",
+    "aProposCompagnie": "החברה",
+    "aProposEquipe": "הצוות",
+    "aProposEmplois": "משרות",
+    "joindreTitre": "צרו קשר",
+    "joindreTelEtiquette": "חיוג חינם: ",
+    "joindreCourrielEtiquette": "דוא״ל: ",
+    "droits": "כל הזכויות שמורות."
+  },
+  "accueil": {
+    "heroTitre": "חולצות טי, קפוצ'ונים וכובעים המיוצרים בקוויבק 💯",
+    "heroSousTitre": "עוצבו ב-TIM עם ❤️",
+    "heroSousTitre2": "בעזרת קצת עזרה מ-DALL-E 😉",
+    "para1": "כיום, חולצת הטי היא פריט לבוש חיוני בארון של כל אחד. בתקופה שבה השאלה הסביבתית חשובה יותר מתמיד, אנו מעדיפים חולצות טי המיוצרות בקוויבק כדי להפחית את ההשפעה על הסביבה ולקדם את האומנות המקומית.",
+    "para2": "חולצת טי עם צווארון V או צווארון עגול, בגזרה רחבה או צמודה, עם שרוולים קצרים או ארוכים לאלה שסובלים מקור, חלקה או מעוטרת כדי להוסיף סגנון לתלבושת… חולצת הטי זמינה במגוון צבעים, סגנונות ודוגמאות."
+  }, 
+    "catalogue" : {
+    "etiquetteTri" : "מיין לפי:",
+    "aleatoire" :"אַקרַאִי",
+    "ventesDesc" : "הכי מוכר",
+    "prixAsc": "מחיר / עולה",
+    "prixDesc" : "מחיר / יורד"
+  },
+  "teeshirts": {
+    "titrePage": "חולצות הטי שלנו",
+    "aVenir": "בקרוב..."
+  },
+  "casquettes": {
+    "titrePage": "הכובעים שלנו",
+    "aVenir": "בקרוב..."
+  },
+  "hoodies": {
+    "titrePage": "הכובעים שלנו",
+    "aVenir": "בקרוב..."
+  },
+  "apropos": {
+    "titrePage": "teeTIM בקצרה",
+    "aVenir": "בקרוב..."
+  },
+  "aide": {
+    "titrePage": "אנחנו תמיד כאן כדי להקשיב",
+    "aVenir": "בקרוב..."
+  }
+  
+}

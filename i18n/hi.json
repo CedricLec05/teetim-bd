@@ -1,0 +1,60 @@
+{
+  "entete": {
+    "altLogo": "होम पेज", 
+    "placeholderRecherche": "खोजें",
+    "menuTeeshirts": "टी-शर्ट",
+    "menuCasquettes": "टोपियां",
+    "menuHoodies": "हुडी",
+    "menuAide": "सहायता",
+    "menuNous": "हमारे बारे में"
+  },
+  "pp": {
+    "achatsTitre": "आपकी खरीदारी",
+    "navAchatsFaq": "अक्सर पूछे जाने वाले प्रश्न",
+    "navAchatsLivraison": "आपके पैकेज की डिलीवरी",
+    "navAchatsConditions": "बिक्री की शर्तें",
+    "navAchatsConfidentialite": "गोपनीयता नीति",
+    "aProposTitre": "teeTIM के बारे में",
+    "aProposCompagnie": "कंपनी",
+    "aProposEquipe": "टीम",
+    "aProposEmplois": "नौकरियां",
+    "joindreTitre": "हमसे संपर्क करें",
+    "joindreTelEtiquette": "टोल-फ्री: ",
+    "joindreCourrielEtiquette": "ईमेल: ",
+    "droits": "सर्वाधिकार सुरक्षित।"
+  },
+  "accueil": {
+    "heroTitre": "क्यूबेक में निर्मित टी-शर्ट, हुडी और टोपियां 💯",
+    "heroSousTitre": "TIM में ❤️ के साथ डिज़ाइन किए गए",
+    "heroSousTitre2": "DALL-E की थोड़ी मदद से 😉",
+    "para1": "आज टी-शर्ट हर किसी की अलमारी में एक अनिवार्य परिधान है। ऐसे समय में जब पर्यावरण का सवाल पहले से कहीं अधिक महत्वपूर्ण है, हम पर्यावरणीय प्रभाव को कम करने और स्थानीय शिल्प को बढ़ावा देने के लिए क्यूबेक में बनी टी-शर्ट पसंद करते हैं।",
+    "para2": "V-नेक, गोल गले वाली, ढीली या फिटेड टी-शर्ट, ठंड जल्दी लगने वालों के लिए छोटी या लंबी आस्तीन वाली, सादी या पोशाक को आकर्षक बनाने के लिए डिज़ाइन वाली… टी-शर्ट कई रंगों, शैलियों और डिज़ाइनों में उपलब्ध है।"
+  }, 
+  "catalogue" : {
+    "etiquetteTri" : "इसके अनुसार क्रमबद्ध करें :",
+    "aleatoire" :"यादृच्छिक",
+    "ventesDesc" : "सर्वश्रेष्ठ विक्रेता",
+    "prixAsc": "कीमत/बढ़ती हुई",
+    "prixDesc" : "कीमत/घटती हुई"
+  },
+  "teeshirts": {
+    "titrePage": "हमारी टी-शर्ट",
+    "aVenir": "जल्द आ रहा है..."
+  },
+  "casquettes": {
+    "titrePage": "हमारी टोपियां",
+    "aVenir": "जल्द आ रहा है..."
+  },
+  "hoodies": {
+    "titrePage": "हमारी हुडी",
+    "aVenir": "जल्द आ रहा है..."
+  },
+  "apropos": {
+    "titrePage": "teeTIM का संक्षिप्त परिचय",
+    "aVenir": "जल्द आ रहा है..."
+  },
+  "aide": {
+    "titrePage": "हम हमेशा आपकी बात सुनने के लिए तैयार हैं",
+    "aVenir": "जल्द आ रहा है..."
+  }
+}

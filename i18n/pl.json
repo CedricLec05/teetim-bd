@@ -1,0 +1,60 @@
+{
+  "entete": {
+    "altLogo": "Strona główna",
+    "placeholderRecherche": "Szukaj",
+    "menuTeeshirts": "Koszulki",
+    "menuCasquettes": "Czapki",
+    "menuHoodies": "Bluzy",
+    "menuAide": "Pomoc",
+    "menuNous": "O nas"
+  },
+  "pp": {
+    "achatsTitre": "Twoje zakupy",
+    "navAchatsFaq": "Najczęstsze pytania",
+    "navAchatsLivraison": "Dostawa przesyłki",
+    "navAchatsConditions": "Warunki sprzedaży",
+    "navAchatsConfidentialite": "Polityka prywatności",
+    "aProposTitre": "O teeTIM",
+    "aProposCompagnie": "Firma",
+    "aProposEquipe": "Zespół",
+    "aProposEmplois": "Praca",
+    "joindreTitre": "Skontaktuj się z nami",
+    "joindreTelEtiquette": "Bez opłat: ",
+    "joindreCourrielEtiquette": "E-mail: ",
+    "droits": "Wszelkie prawa zastrzeżone."
+  },
+  "accueil": {
+    "heroTitre": "Koszulki, bluzy i czapki wyprodukowane w Quebecu 💯",
+    "heroSousTitre": "Zaprojektowane w TIM z ❤️",
+    "heroSousTitre2": "z odrobiną pomocy DALL-E 😉",
+    "para1": "Dziś koszulka jest podstawowym elementem garderoby każdego. A ponieważ kwestia środowiska jest dziś ważniejsza niż kiedykolwiek, wolimy koszulki produkowane w Quebecu, aby zmniejszyć wpływ na środowisko i promować lokalne rzemiosło.",
+    "para2": "Koszulka typu V-neck, z okrągłym kołnierzem, luźna lub dopasowana, z krótkim lub długim rękawem dla najbardziej zimnolubnych, gładka lub w motywy, aby urozmaicić stylizację… Koszulki są dostępne w różnych kolorach, stylach i wzorach."
+  },
+  "catalogue" : {
+    "etiquetteTri" : "Sortuj według:",
+    "aleatoire" :"Losowo",
+    "ventesDesc" : "Bestseller",
+    "prixAsc": "Cena / rosnąco",
+    "prixDesc" : "Cena / malejąco"
+  },
+  "teeshirts": {
+    "titrePage": "Nasze koszulki",
+    "aVenir": "Wkrótce..."
+  },
+  "casquettes": {
+    "titrePage": "Nasze czapki",
+    "aVenir": "Wkrótce..."
+  },
+  "hoodies": {
+    "titrePage": "Nasze bluzy",
+    "aVenir": "Wkrótce..."
+  },
+  "aide": {
+    "titrePage": "Jesteśmy zawsze do dyspozycji",
+    "aVenir": "Wkrótce..."
+  },
+  "apropos": {
+    "titrePage": "TeeTIM w skrócie",
+    "aVenir": "Wkrótce..."
+  }
+}
