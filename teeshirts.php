@@ -1,96 +1,74 @@
 <?php
-$page = "teeshirts";
-include("commun/entete.inc.php");
+
 /** 
- * @var stdClass $_ Raccourci pour la section texte de cette page.
+ * @var stdClass $_ Raccourci pour la section texte de cette page. 
  * @var string $langue Code de la langue active.
  */
-include("lib/catalogue.lib.php");
 
-// Intégrer le fichier JSON contenant les produits
-$catalogue = json_decode(file_get_contents("data/teeshirts.json"));
+// Librairie du catalogue de produits.
+include('lib/catalogue.lib.php');
 
-// On crée deux tableaux pour stocker les thèmes et les produits
-$themes = [];
-$produits = [];
+// Définir la variable $page pour indiquer la page affichée.
+$page = 'teeshirts';
+// Inclure la partie de haut de la page.
+include('parties-communes/entete.php');
 
-// On parcourt le catalogue pour sortir les thèmes et fusionner les produits
-foreach ($catalogue as $codeTheme => $detailTheme) {
-    $langueDispo = array("fr", "en");
-    if (in_array($langue, $langueDispo)) {
-        $themes[$codeTheme] = $detailTheme->theme->$langue;
-    } else {
-        $langue = "fr";
-    }
+// Gérer l'intéractivité de filtre et tri.
+// $tri = (isset($_GET['tri'])) ? $_GET['tri'] : 'aleatoire';
+$tri = $_GET['tri'] ?? 'aleatoire';
+// $filtre = (isset($_GET['filtre'])) ? $_GET['filtre'] : 'tous';
+$filtre = $_GET['filtre'] ?? 'tous';
 
-    // Fusionner avec le tableau $produits
-    $produits = array_merge($produits, $detailTheme->produits);
-}
+$themes = obtenirThemes();
+// print_r($themes);
+$produits = obtenirProduits($page, $tri, $filtre);
 
-// Le tri des produits est fait à  la fin, après le filtrage.
-$tri = obtenirCritereTri();
-$produits = trierProduits($produits, $tri);
+// Formatteur des montants d'argent
+$formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
 ?>
 <main class="page-produits page-teeshirts">
-    <article class="amorce">
-        <h1><?= $_->titrePage; ?></h1>
-        <form class="controle" action="">
-            <div class="filtre">
-                <label for="filtre">Filtrer par thème : </label>
-                <select name="filtre" id="filtre">
-                    <option value="tous">Tous les produits</option>
-                    <!-- Générer les options des thèmes dynamiquement -->
-                    <?php foreach ($themes as $codeTheme => $nomTheme) : ?>
-                        <option value="<?= $codeTheme; ?>"><?= $nomTheme; ?></option>
-                    <?php endforeach; ?>
-                </select>
-            </div>
-            <div class="tri">
-                <label for="tri"><?= $_cat->etiquetteTri; ?></label>
-                <select name="tri" id="tri">
-                    <option <?= ($tri == "aleatoire") ? "selected" : ""; ?> value="aleatoire"><?= $_cat->aleatoire; ?></option>
-                    <option <?= ($tri == "ventesDesc") ? "selected" : ""; ?> value="ventesDesc"><?= $_cat->ventesDesc; ?></option>
-                    <option <?= ($tri == "prixAsc") ? "selected" : ""; ?> value="prixAsc"><?= $_cat->prixAsc; ?></option>
-                    <option <?= ($tri == "prixDesc") ? "selected" : ""; ?> value="prixDesc"><?= $_cat->prixDesc; ?></option>
-                    <!-- Pour les besoins du TP, nous ne gérons pas le tri par nom et par date d'ajout -->
-                    <!-- 
-                        <option <?= ($tri == "nomAsc") ? "selected" : ""; ?> value="nomAsc"><?= $_cat->nomAsc; ?></option>
-                        <option <?= ($tri == "nomDesc") ? "selected" : ""; ?> value="nomDesc"><?= $_cat->nomDesc; ?></option>
-                        <option <?= ($tri == "dacDesc") ? "selected" : ""; ?> value="dacDesc"><?= $_cat->dacDesc; ?></option>
-                    -->
-                </select>
-            </div>
-        </form>
-    </article>
-    <article class="principal">
-        <!-- Gabarit -->
-        <?php foreach ($produits as $prd) : ?>
-            <div class="produit">
-                <span class="image">
-                    <img src="images/produits/teeshirts/<?= $prd->id; ?>.webp" alt="<?= $prd->nom->$langue; ?>">
-                </span>
-                <span class="nom"><?= $prd->nom->$langue; ?></span>
-                <span class="prix"><?= MessageFormatter::formatMessage($langue, "{0, number, :: currency/CAD}", [$prd->prix]) ?></span>
-            </div>
-        <?php endforeach; ?>
-    </article>
-</main>
+	<article class="amorce">
+		<h1><?= $_->titrePage ?></h1>
+		<form class="controle">
+			<div class="filtre">
+				<label for="filtre">Filtrer par thème : </label>
+				<select name="filtre" id="filtre">
+					<option value="tous">Tous les produits</option>
 
-<!-- Gabarit à utiliser pour implémenter l'affichage asynchrone des produits -->
-<!-- Adapter le gabarit ci-dessous pour répondre aux besoins du TP -->
-<template id="gabarit-produit">
-    <div class="produit">
-        <span class="image">
-            <img
-                src="images/produits/teeshirts/[ID].webp"
-                alt="Nom du produit dans la langue courante">
-        </span>
-        <span class="nom">Nom du produit dans la langue courante</span>
-        <span class="prix">
-            <span class="montant">XX.XX</span>
-        </span>
-    </div>
-</template>
-<?php
-include("commun/pied2page.inc.php");
-?>
+					<!-- Gabarit d'une option de thème -->
+					<?php foreach ($themes as $unTheme) : ?>
+						<option value="<?= $unTheme->id; ?>"><?= $unTheme->nom; ?></option>
+					<?php endforeach; ?>
+				</select>
+			</div>
+			<div class="tri">
+				<label for="tri">Trier par : </label>
+				<select name="tri" id="tri">
+					<option <?= ($tri == 'aleatoire') ? ' selected ' : ''; ?> value="aleatoire">Aléatoire</option>
+					<option <?= ($tri == 'ventesDesc') ? ' selected ' : ''; ?> value="ventesDesc">Meilleur vendeur</option>
+					<option <?= ($tri == 'prixAsc') ? ' selected ' : ''; ?> value="prixAsc">Prix / ascendant</option>
+					<option <?= ($tri == 'prixDesc') ? ' selected ' : ''; ?> value="prixDesc">Prix / descendant</option>
+					<!-- Les deux options de tri alphabétique ne sont pas encore implémentées -->
+					<!-- 
+					<option <?= ($tri == 'nomAsc') ? ' selected ' : ''; ?> value="nomAsc">Alpha / ascendant</option>
+					<option <?= ($tri == 'nomDesc') ? ' selected ' : ''; ?> value="nomDesc">Alpha / descendant</option>
+					 -->
+					<option <?= ($tri == 'dacDesc') ? ' selected ' : ''; ?> value="dacDesc">Nouveauté</option>
+				</select>
+			</div>
+		</form>
+	</article>
+	<article class="principal">
+		<!-- Gabarit -->
+		<?php foreach ($produits as $prd) : ?>
+			<div class="produit">
+				<span class="image">
+					<img src="images/produits/teeshirts/<?= $prd->id; ?>.webp" alt="<?= $prd->nom->$langue; ?>">
+				</span>
+				<span class="nom"><?= $prd->nom->$langue; ?></span>
+				<span class="prix"><?= $formatteurMontants->formatCurrency($prd->prix, 'CAD'); ?></span>
+			</div>
+		<?php endforeach; ?>
+	</article>
+</main>
+<?php include('parties-communes/pied2page.php'); ?>

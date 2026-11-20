@@ -44,45 +44,7 @@
                 "dac": "2024-10-01",
                 "ventes": 12,
                 "prix": 27.5
-            },
-            {
-            "id" : "ts0009",
-            "nom" : {
-                "fr" : "Renardcoptère",
-                "en": "Foxcopter"
-            },
-            "dac": "2025-05-04",
-            "ventes" : 56,
-            "prix" : 17.95
-            },
-            {
-            "id" : "ts0013",
-            "nom" : {
-                "fr" : "L'outre d'outremer",
-                "en" : "Otter of the other sea"
-            },
-            "dac" : "2025-10-11",
-            "ventes" : 260,
-            "prix" :15.95
-            },
-            {"id":"ts0201","nom":{"fr":"Panda astronaute","en":"Astronaut Panda"},"dac":"2025-03-14","ventes":87,"prix":24.95},
-            {"id":"ts0202","nom":{"fr":"Renard à roulettes","en":"Roller-Skating Fox"},"dac":"2024-11-02","ventes":42,"prix":21.5},
-            {"id":"ts0203","nom":{"fr":"La sieste du paresseux","en":"Sloth's Nap"},"dac":"2026-01-19","ventes":134,"prix":19.95},
-            {"id":"ts0204","nom":{"fr":"Baleine en montgolfière","en":"Hot-Air Balloon Whale"},"dac":"2023-07-08","ventes":63,"prix":26},
-            {"id":"ts0205","nom":{"fr":"Hérisson jardinier","en":"Gardening Hedgehog"},"dac":"2025-09-23","ventes":211,"prix":22.75},
-            {"id":"ts0206","nom":{"fr":"Chouette détective","en":"Detective Owl"},"dac":"2024-02-11","ventes":18,"prix":18.5},
-            {"id":"ts0207","nom":{"fr":"Dauphin disco","en":"Disco Dolphin"},"dac":"2026-04-04","ventes":95,"prix":25.5},
-            {"id":"ts0208","nom":{"fr":"Lama au grand cœur","en":"Big-Hearted Llama"},"dac":"2023-10-17","ventes":326,"prix":20},
-            {"id":"ts0209","nom":{"fr":"Pieuvre pâtissière","en":"Baker Octopus"},"dac":"2025-06-30","ventes":56,"prix":23.95},
-            {"id":"ts0210","nom":{"fr":"Petit tigre en vacances","en":"Tiger on Vacation"},"dac":"2024-08-15","ventes":72,"prix":27},
-            {"id":"ts0211","nom":{"fr":"Canard chevalier","en":"Knight Duck"},"dac":"2026-02-07","ventes":11,"prix":19.5},
-            {"id":"ts0212","nom":{"fr":"Koala sous la pluie","en":"Koala in the Rain"},"dac":"2023-05-21","ventes":149,"prix":22},
-            {"id":"ts0213","nom":{"fr":"Grenouille mélomane","en":"Musical Frog"},"dac":"2025-12-03","ventes":208,"prix":24.5},
-            {"id":"ts0214","nom":{"fr":"Chat pirate des mers","en":"Cat Pirate of the Seas"},"dac":"2024-04-19","ventes":38,"prix":28.5},
-            {"id":"ts0215","nom":{"fr":"Mouton météorologue","en":"Weather-Reporting Sheep"},"dac":"2026-05-28","ventes":4,"prix":17.95},
-            {"id":"ts0216","nom":{"fr":"Papillon de nuit magique","en":"Magical Moth"},"dac":"2025-01-06","ventes":119,"prix":23},
-            {"id":"ts0217","nom":{"fr":"Crocodile en patins","en":"Crocodile on Skates"},"dac":"2023-11-26","ventes":61,"prix":21.95},
-            {"id":"ts0218","nom":{"fr":"Écureuil collectionneur","en":"Squirrel Collector"},"dac":"2024-06-09","ventes":183,"prix":20.5}
+            }
         ]
     },
     "inusite": {
@@ -100,54 +62,7 @@
                 "dac": "2024-06-20",
                 "ventes": 6,
                 "prix": 20.5
-            },
-            {
-            "id" : "ts0014",
-            "nom" : {
-                "fr" : "Cerveau volant",
-                "en" : "Flying brain"
-            },
-            "dac" : "2025-08-08",
-            "ventes" : 154,
-            "prix" :24.5
-            },
-            {
-            "id" : "ts0019",
-            "nom" : {
-                "fr" : "Beau bébébot",
-                "en" : "Pretty baby"
-            },
-            "dac" : "2026-09-05",
-            "ventes" : 2,
-            "prix" :26.5
-            },
-            {
-            "id" : "ts0020",
-            "nom" : {
-                "fr" : "Grille-pain couac-couac",
-                "en" : "Couac-couac Toaster"
-            },
-            "dac" : "2026-10-01",
-            "ventes" : 0,
-            "prix" :20
-            },
-            {"id":"ts0219","nom":{"fr":"Une chaise qui rêve","en":"A Chair with Dreams"},"dac":"2025-02-18","ventes":29,"prix":22.5},
-            {"id":"ts0220","nom":{"fr":"Nuage en conserve","en":"Canned Cloud"},"dac":"2024-09-12","ventes":117,"prix":18.95},
-            {"id":"ts0221","nom":{"fr":"Le parapluie sous-marin","en":"The Underwater Umbrella"},"dac":"2026-03-03","ventes":51,"prix":25},
-            {"id":"ts0222","nom":{"fr":"Escargot supersonique","en":"Supersonic Snail"},"dac":"2023-04-27","ventes":274,"prix":20.5},
-            {"id":"ts0223","nom":{"fr":"Mardi en apesanteur","en":"Weightless Tuesday"},"dac":"2025-07-16","ventes":8,"prix":27.95},
-            {"id":"ts0224","nom":{"fr":"Le cactus mélancolique","en":"The Melancholy Cactus"},"dac":"2024-01-25","ventes":66,"prix":19},
-            {"id":"ts0225","nom":{"fr":"Chaussette pour fantôme","en":"Ghost Sock"},"dac":"2026-06-11","ventes":193,"prix":23.5},
-            {"id":"ts0226","nom":{"fr":"Théière intergalactique","en":"Intergalactic Teapot"},"dac":"2023-09-05","ventes":35,"prix":28},
-            {"id":"ts0227","nom":{"fr":"Le roi des miettes","en":"King of Crumbs"},"dac":"2025-10-29","ventes":142,"prix":21},
-            {"id":"ts0228","nom":{"fr":"Boussole à l'envers","en":"Upside-Down Compass"},"dac":"2024-12-06","ventes":23,"prix":18.5},
-            {"id":"ts0229","nom":{"fr":"Petit déjeuner sur la Lune","en":"Breakfast on the Moon"},"dac":"2026-01-31","ventes":306,"prix":26.5},
-            {"id":"ts0230","nom":{"fr":"Le mystérieux bouton rouge","en":"The Mysterious Red Button"},"dac":"2023-06-14","ventes":77,"prix":24},
-            {"id":"ts0231","nom":{"fr":"Diplôme en sieste","en":"Degree in Napping"},"dac":"2025-05-08","ventes":162,"prix":20},
-            {"id":"ts0232","nom":{"fr":"La valise sans fond","en":"The Bottomless Suitcase"},"dac":"2024-03-22","ventes":44,"prix":29},
-            {"id":"ts0233","nom":{"fr":"Poisson rouge philosophe","en":"Philosophical Goldfish"},"dac":"2026-08-03","ventes":15,"prix":22.95},
-            {"id":"ts0234","nom":{"fr":"Une journée de huit minutes","en":"An Eight-Minute Day"},"dac":"2023-12-19","ventes":98,"prix":17.5},
-            {"id":"ts0235","nom":{"fr":"Le labyrinthe de spaghettis","en":"The Spaghetti Maze"},"dac":"2025-11-21","ventes":203,"prix":25.95}
+            }
         ]
     },
     "sport": {
@@ -165,43 +80,7 @@
                 "dac": "2024-01-02",
                 "ventes": 21,
                 "prix": 22.75
-            },
-            {
-            "id" : "ts0015",
-            "nom" : {
-                "fr" : "Basket courbe",
-                "en" : "Curved Basket"
-            },
-            "dac" : "2025-09-04",
-            "ventes" : 158,
-            "prix" : 19.75
-            },
-            {
-            "id" : "ts0016",
-            "nom" : {
-                "fr" : "Pizza, vino e calcio",
-                "en" : "Pizza, vino e calcio"
-            },
-            "dac" : "2026-07-18",
-            "ventes" : 40,
-            "prix" : 19.75
-            },
-            {"id":"ts0236","nom":{"fr":"Marathon dans les nuages","en":"Cloud Marathon"},"dac":"2024-05-13","ventes":71,"prix":23},
-            {"id":"ts0237","nom":{"fr":"La passe impossible","en":"The Impossible Pass"},"dac":"2026-02-22","ventes":186,"prix":21.5},
-            {"id":"ts0238","nom":{"fr":"Yoga avec les étoiles","en":"Yoga with the Stars"},"dac":"2023-08-03","ventes":39,"prix":26},
-            {"id":"ts0239","nom":{"fr":"Champion de ping-pong lunaire","en":"Lunar Table-Tennis Champion"},"dac":"2025-04-16","ventes":114,"prix":19.95},
-            {"id":"ts0240","nom":{"fr":"Le vélo sans gravité","en":"The Zero-Gravity Bicycle"},"dac":"2024-10-28","ventes":8,"prix":28.5},
-            {"id":"ts0241","nom":{"fr":"Patinage au crépuscule","en":"Skating at Dusk"},"dac":"2026-06-05","ventes":255,"prix":24.95},
-            {"id":"ts0242","nom":{"fr":"Échec et course","en":"Checkmate and Sprint"},"dac":"2023-03-17","ventes":62,"prix":20.5},
-            {"id":"ts0243","nom":{"fr":"La médaille du dimanche","en":"Sunday's Medal"},"dac":"2025-08-27","ventes":93,"prix":22},
-            {"id":"ts0244","nom":{"fr":"Curling sur la plage","en":"Beach Curling"},"dac":"2024-07-06","ventes":147,"prix":25},
-            {"id":"ts0245","nom":{"fr":"Escalade vers les étoiles","en":"Climbing to the Stars"},"dac":"2026-04-23","ventes":31,"prix":27.5},
-            {"id":"ts0246","nom":{"fr":"Gardien de but intergalactique","en":"Intergalactic Goalie"},"dac":"2023-11-09","ventes":208,"prix":23.5},
-            {"id":"ts0247","nom":{"fr":"Course de tortues express","en":"Express Turtle Race"},"dac":"2025-01-30","ventes":52,"prix":18.95},
-            {"id":"ts0248","nom":{"fr":"Plongeon en pleine page","en":"A Page-Turning Dive"},"dac":"2024-02-16","ventes":173,"prix":21},
-            {"id":"ts0249","nom":{"fr":"Hockey des aurores boréales","en":"Northern Lights Hockey"},"dac":"2026-09-14","ventes":6,"prix":29.5},
-            {"id":"ts0250","nom":{"fr":"Course de relais des robots","en":"Robot Relay Race"},"dac":"2023-06-25","ventes":89,"prix":24},
-            {"id":"ts0251","nom":{"fr":"Champion de cache-cache","en":"Hide-and-Seek Champion"},"dac":"2025-12-12","ventes":132,"prix":20}
+            }
         ]
     },
     "nature": {
@@ -229,132 +108,32 @@
                 "dac": "2020-12-21",
                 "ventes": 293,
                 "prix": 15.5
-            },
-            {
-            "id" : "ts0010",
-            "nom" : {
-                "fr" : "Par une nuit d'été sur Mars",
-                "en" : "Summer night on Mars"
-            },
-            "dac" : "2026-01-30",
-            "ventes" : 48,
-            "prix" : 22
-            },
-            {
-            "id" : "ts0011",
-            "nom" : {
-                "fr" : "Le déjeuner pointilliste",
-                "en" : "Pointillism breakfast"
-            },
-            "dac" : "2026-02-21",
-            "ventes" : 55,
-            "prix" :21
-            },
-            {
-            "id" : "ts0012",
-            "nom" : {
-                "fr" : "Portrait au tournesol",
-                "en" : "Sunflower portait"
-            },
-            "dac" : "2026-03-26",
-            "ventes" : 24,
-            "prix" : 29.99
-            },
-            {
-            "id" : "ts0017",
-            "nom" : {
-                "fr" : "Réflexion dans le lac",
-                "en" : "Relfection in the lake"
-            },
-            "dac" : "2026-07-10",
-            "ventes" : 12,
-            "prix" :21.5
-            },
-            {
-            "id" : "ts0018",
-            "nom" : {
-                "fr" : "Levé de soleil en automne",
-                "en" : "Sunrise in autumn"
-            },
-            "dac" : "2026-08-28",
-            "ventes" : 5,
-            "prix" :22.95
-            },
-            {"id":"ts0252","nom":{"fr":"Jardin secret sous la neige","en":"Secret Garden in Snow"},"dac":"2024-01-09","ventes":162,"prix":24.5},
-            {"id":"ts0253","nom":{"fr":"Lever de lune sur la forêt","en":"Moonrise over the Forest"},"dac":"2026-05-16","ventes":48,"prix":27},
-            {"id":"ts0254","nom":{"fr":"Fougères en fête","en":"Fern Festival"},"dac":"2023-10-02","ventes":93,"prix":19.5},
-            {"id":"ts0255","nom":{"fr":"Rivière couleur menthe","en":"Mint-Colored River"},"dac":"2025-03-29","ventes":214,"prix":22},
-            {"id":"ts0256","nom":{"fr":"Montagnes en origami","en":"Origami Mountains"},"dac":"2024-08-24","ventes":25,"prix":25.95},
-            {"id":"ts0257","nom":{"fr":"Le jardin des lucioles","en":"The Firefly Garden"},"dac":"2026-07-02","ventes":307,"prix":23},
-            {"id":"ts0258","nom":{"fr":"Orage au-dessus des dunes","en":"Storm over the Dunes"},"dac":"2023-02-08","ventes":54,"prix":28},
-            {"id":"ts0259","nom":{"fr":"Petite planète bleue","en":"Little Blue Planet"},"dac":"2025-10-04","ventes":137,"prix":20.95},
-            {"id":"ts0260","nom":{"fr":"Champignons de minuit","en":"Midnight Mushrooms"},"dac":"2024-04-30","ventes":72,"prix":21.5},
-            {"id":"ts0261","nom":{"fr":"Un volcan en fleurs","en":"A Volcano in Bloom"},"dac":"2026-03-20","ventes":17,"prix":26.5},
-            {"id":"ts0262","nom":{"fr":"Promenade parmi les érables","en":"Walk among the Maples"},"dac":"2023-12-07","ventes":188,"prix":19.95},
-            {"id":"ts0263","nom":{"fr":"Océan de papier","en":"Paper Ocean"},"dac":"2025-06-18","ventes":64,"prix":24},
-            {"id":"ts0264","nom":{"fr":"Ciel rose après l'orage","en":"Pink Sky after the Storm"},"dac":"2024-11-19","ventes":225,"prix":22.5},
-            {"id":"ts0265","nom":{"fr":"La dernière feuille d'automne","en":"Autumn's Last Leaf"},"dac":"2026-08-25","ventes":9,"prix":18},
-            {"id":"ts0266","nom":{"fr":"Cascades en cascade","en":"Waterfall upon Waterfall"},"dac":"2023-05-04","ventes":116,"prix":27.95},
-            {"id":"ts0267","nom":{"fr":"Constellations de fleurs","en":"Flower Constellations"},"dac":"2025-09-10","ventes":42,"prix":23.5},
-            {"id":"ts0268","nom":{"fr":"La prairie des petites pluies","en":"Meadow of Little Rains"},"dac":"2024-06-26","ventes":95,"prix":20.5}
+            }
         ]
     },
-    "musique": {
+    "jv": {
         "theme": {
-            "fr": "musique",
-            "en": "music"
+            "fr": "Jeux vidéo",
+            "en": "Video Games"
+        },
+        "produits": []
+    },
+    "sf": {
+        "theme": {
+            "fr": "Science fiction",
+            "en": "Sci-Fi"
         },
         "produits": [
-            {"id":"ts0269","nom":{"fr":"La guitare des lucioles","en":"The Firefly Guitar"},"dac":"2025-02-03","ventes":82,"prix":23.95},
-            {"id":"ts0270","nom":{"fr":"Jazz pour les plantes","en":"Jazz for Plants"},"dac":"2024-09-28","ventes":139,"prix":21},
-            {"id":"ts0271","nom":{"fr":"Batterie de poche","en":"Pocket-Sized Drum Kit"},"dac":"2026-01-12","ventes":56,"prix":26},
-            {"id":"ts0272","nom":{"fr":"La chorale des fantômes","en":"The Ghost Choir"},"dac":"2023-07-19","ventes":201,"prix":24.5},
-            {"id":"ts0273","nom":{"fr":"Vinyle interstellaire","en":"Interstellar Vinyl"},"dac":"2025-05-24","ventes":32,"prix":29},
-            {"id":"ts0274","nom":{"fr":"Piano sous la pluie","en":"Piano in the Rain"},"dac":"2024-03-08","ventes":174,"prix":20.5},
-            {"id":"ts0275","nom":{"fr":"Danse des notes bleues","en":"Dance of the Blue Notes"},"dac":"2026-04-29","ventes":13,"prix":22},
-            {"id":"ts0276","nom":{"fr":"Le saxophone solaire","en":"The Solar Saxophone"},"dac":"2023-11-13","ventes":108,"prix":27},
-            {"id":"ts0277","nom":{"fr":"Mélodie pour un parapluie","en":"Melody for an Umbrella"},"dac":"2025-08-06","ventes":67,"prix":19.95},
-            {"id":"ts0278","nom":{"fr":"Symphonie du réfrigérateur","en":"Refrigerator Symphony"},"dac":"2024-12-22","ventes":248,"prix":25},
-            {"id":"ts0279","nom":{"fr":"Festival des harmonicas","en":"Harmonica Festival"},"dac":"2026-06-17","ventes":45,"prix":18.5},
-            {"id":"ts0280","nom":{"fr":"Basse fréquence, grande aventure","en":"Low Frequency, Big Adventure"},"dac":"2023-04-11","ventes":91,"prix":24},
-            {"id":"ts0281","nom":{"fr":"Les étoiles font du karaoké","en":"The Stars Sing Karaoke"},"dac":"2025-11-02","ventes":153,"prix":22.95},
-            {"id":"ts0282","nom":{"fr":"Flûte au bout du monde","en":"Flute at the Edge of the World"},"dac":"2024-06-01","ventes":29,"prix":28},
-            {"id":"ts0283","nom":{"fr":"La playlist des baleines","en":"The Whales' Playlist"},"dac":"2026-09-21","ventes":196,"prix":23},
-            {"id":"ts0284","nom":{"fr":"Rock'n'roll en pantoufles","en":"Rock 'n' Roll in Slippers"},"dac":"2023-01-28","ventes":74,"prix":20}
-        ]
-    },
-    "histoire" : {
-        "theme":{
-            "fr": "histoire",
-            "en" : "history"
-        },
-        "produits":[
             {
                 "id": "ts0104",
-                "nom":{
-                    "en": "2001 : Space Odyssey",
-                    "fr" : "2001 : L'Odyssé de l'espace"
+                "nom": {
+                    "en": "2001 : A Space Odyssey",
+                    "fr": "2001 : L'odyssée de l'espace"
                 },
-                "prix" : 20.95,
-                "ventes" : 10,
-                "dac" : "2026-05-22"
-            },
-            {"id":"ts0285","nom":{"fr":"Le courrier de Cléopâtre","en":"Cleopatra's Mail"},"dac":"2024-05-06","ventes":52,"prix":24},
-            {"id":"ts0286","nom":{"fr":"Viking en pause-café","en":"Viking Coffee Break"},"dac":"2026-02-14","ventes":177,"prix":21.95},
-            {"id":"ts0287","nom":{"fr":"Le vélo de Léonard","en":"Leonardo's Bicycle"},"dac":"2023-09-29","ventes":88,"prix":27.5},
-            {"id":"ts0288","nom":{"fr":"Un samouraï à Montréal","en":"A Samurai in Montreal"},"dac":"2025-01-17","ventes":241,"prix":23},
-            {"id":"ts0289","nom":{"fr":"Pyramides et petits pois","en":"Pyramids and Peas"},"dac":"2024-10-10","ventes":35,"prix":19.5},
-            {"id":"ts0290","nom":{"fr":"Le banquet des philosophes","en":"The Philosophers' Banquet"},"dac":"2026-07-27","ventes":122,"prix":25.95},
-            {"id":"ts0291","nom":{"fr":"L'imprimerie de Gutenberg en vacances","en":"Gutenberg's Press on Vacation"},"dac":"2023-03-02","ventes":63,"prix":22},
-            {"id":"ts0292","nom":{"fr":"Château fort en kit","en":"Build-Your-Own Castle"},"dac":"2025-06-07","ventes":298,"prix":28.5},
-            {"id":"ts0293","nom":{"fr":"Le pique-nique des explorateurs","en":"Explorers' Picnic"},"dac":"2024-02-28","ventes":19,"prix":20},
-            {"id":"ts0294","nom":{"fr":"Une reine sur la Lune","en":"A Queen on the Moon"},"dac":"2026-03-11","ventes":146,"prix":26},
-            {"id":"ts0295","nom":{"fr":"Chroniques du vieux phare","en":"Tales of the Old Lighthouse"},"dac":"2023-12-31","ventes":73,"prix":18.95},
-            {"id":"ts0296","nom":{"fr":"Les cartes perdues de Marco Polo","en":"Marco Polo's Lost Maps"},"dac":"2025-09-01","ventes":205,"prix":24.5},
-            {"id":"ts0297","nom":{"fr":"Un chevalier sans cheval","en":"A Knight without a Horse"},"dac":"2024-07-20","ventes":47,"prix":21},
-            {"id":"ts0298","nom":{"fr":"Le journal d'une momie","en":"A Mummy's Diary"},"dac":"2026-05-09","ventes":9,"prix":29.95},
-            {"id":"ts0299","nom":{"fr":"Les secrets de l'ancienne bibliothèque","en":"Secrets of the Ancient Library"},"dac":"2023-06-03","ventes":159,"prix":23.5},
-            {"id":"ts0300","nom":{"fr":"Train express pour le Moyen Âge","en":"Express Train to the Middle Ages"},"dac":"2025-12-27","ventes":101,"prix":25}
+                "prix": 20.95,
+                "ventes": 10,
+                "dac": "2026-05-22"
+            }
         ]
     }
 }

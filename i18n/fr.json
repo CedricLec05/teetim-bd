@@ -24,19 +24,12 @@
     "droits": "Tous droits réservés."
   },
   "accueil": {
-    "heroTitre": "Teeshirts, hoodies, et casquettes fabriqués au Québec 💯",
-    "heroSousTitre": "Conçus au TIM avec ❤️",
-    "heroSousTitre2": "avec un p'tit peu d'aide de DALL-E 😉",
+    "amorceTitre": "Teeshirts, hoodies, et casquettes fabriqués au Québec 💯",
+    "amorceSousTitre": "Conçus au TIM avec ❤️",
+    "amorceSousTitre2": "avec un p'tit peu d'aide de DALL-E 😉",
     "para1": "Aujourd'hui, le teeshirt est un vêtement incontournable dans le garde-robe de chacun. Et à l’aire où la question environnementale se pose plus que jamais, on préfère les teeshirts fabriqués au Québec afin de réduire l'impact environnemental et mettre en avant l’artisanat local.",
     "para2": "Teeshirt en V, col rond, ample ou ajusté, à manches courtes ou à manches longues pour les plus frileux, uni ou à motifs pour styliser une tenue… Le teeshirt est disponible dans une variété de couleurs, de styles et de motifs."
   }, 
-  "catalogue" : {
-    "etiquetteTri" : "Trier par :",
-    "aleatoire" :"Aléatoire",
-    "ventesDesc" : "Meilleur vendeur",
-    "prixAsc": "Prix / ascendant",
-    "prixDesc" : "Prix / descendant"
-  },
   "teeshirts": {
     "titrePage": "Nos teeshirts",
     "aVenir": "À venir..."

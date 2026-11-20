@@ -1,15 +1,15 @@
 <?php
+// Indiquer la page
 $page = "casquettes";
-include("commun/entete.inc.php");
+include("parties-communes/entete.php");
+/** @var stdClass $_ */
 ?>
 <main class="page-produits page-casquettes">
-    <article class="amorce">
-        <h1><?= $_->titrePage; ?></h1>
-    </article>
-    <article class="principal">
-        <?= $_->enConstruction; ?>
-    </article>
+	<article class="amorce">
+		<h1><?= $_->titrePage ?></h1>
+	</article>
+	<article class="principal">
+		<?= $_->aVenir ?>
+	</article>
 </main>
-<?php
-include("commun/pied2page.inc.php");
-?>
+<?php include("parties-communes/pied2page.php"); ?>

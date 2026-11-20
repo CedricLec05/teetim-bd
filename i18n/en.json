@@ -24,18 +24,11 @@
     "droits": "All rights reserved."
   },
   "accueil": {
-    "heroTitre": "T-shirts, hoodies, and caps made in Quebec 💯",
-    "heroSousTitre": "Designed at TIM with ❤️",
-    "heroSousTitre2": "with a little help from DALL-E 😉",
+    "amorceTitre": "T-shirts, hoodies, and caps made in Quebec 💯",
+    "amorceSousTitre": "Designed at TIM with ❤️",
+    "amorceSousTitre2": "with a little help from DALL-E 😉",
     "para1": "Today, the T-shirt is a staple in everyone's wardrobe. And in an era where environmental issues are more pressing than ever, we prefer T-shirts made in Quebec to reduce environmental impact and highlight local craftsmanship.",
     "para2": "V-neck, round neck, loose or fitted, short sleeves or long sleeves for the chilly ones, plain or patterned to style an outfit... The T-shirt is available in a variety of colors, styles, and patterns."
-  },
-    "catalogue" : {
-    "etiquetteTri" : "Sort by :",
-    "aleatoire" :"Random",
-    "ventesDesc" : "Best seller",
-    "prixAsc": "Price / ascending",
-    "prixDesc" : "Price / descending"
   },
   "teeshirts": {
     "titrePage": "Our T-shirts",
