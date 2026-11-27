@@ -3,3 +3,9 @@ document.querySelectorAll("form.controle select").forEach(
     evt => evt.target.form.submit()
   )
 );
+
+document.querySelectorAll(".page-produits .produit img").forEach(){
+  eltImg => eltImg.addEventListener('error',
+    evt=>evt.target.src = 'image/produits/teeshirts/blanc.png'
+  )
+};

@@ -38,10 +38,9 @@ $formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
 					<!-- Gabarit d'une option de thème -->
 					<?php foreach ($themes as $unTheme) : ?>
 						<option
-						<?=  ($filtre===$unTheme->id) ? ' selected ' : ''; ?> 
-							value="<?= $unTheme->id; ?>"
-							>
-							<?= $unTheme->nom; ?>
+							<?= ($filtre == $unTheme['id']) ? ' selected ' : ''; ?>
+							value="<?= $unTheme['id']; ?>">
+							<?= $unTheme['nom']; ?>
 						</option>
 					<?php endforeach; ?>
 				</select>
@@ -65,10 +64,9 @@ $formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
 		<?php foreach ($produits as $prd) : ?>
 			<div class="produit">
 				<span class="image">
-					<img 
-						src="images/produits/teeshirts/<?= $prd->fichier_image; ?>"
-						alt="<?= $prd->nom; ?>"
-					>
+					<img
+						src="images/produits/teeshirts/<?= ($prd->fichier_image !== '') ? $prd->fichier_image : 'vert.png'; ?>"
+						alt="<?= $prd->nom; ?>">
 				</span>
 				<span class="nom"><?= $prd->nom; ?></span>
 				<span class="prix"><?= $formatteurMontants->formatCurrency($prd->prix, 'CAD'); ?></span>
