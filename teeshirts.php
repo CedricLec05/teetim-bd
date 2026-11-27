@@ -21,7 +21,7 @@ $filtre = $_GET['filtre'] ?? 'tous';
 
 $themes = obtenirThemes($cnx);
 // print_r($themes);
-$produits = obtenirProduits($cnx);
+$produits = obtenirProduits($cnx, $filtre, $tri);
 
 // Formatteur des montants d'argent
 $formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
