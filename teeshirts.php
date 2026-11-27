@@ -19,9 +19,9 @@ $tri = $_GET['tri'] ?? 'RAND()';
 // $filtre = (isset($_GET['filtre'])) ? $_GET['filtre'] : 'tous';
 $filtre = $_GET['filtre'] ?? 'tous';
 
-$themes = obtenirThemes();
+$themes = obtenirThemes($cnx);
 // print_r($themes);
-$produits = obtenirProduits(1, $tri, $filtre);
+$produits = obtenirProduits($cnx);
 
 // Formatteur des montants d'argent
 $formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
@@ -38,9 +38,9 @@ $formatteurMontants = new NumberFormatter($langue, NumberFormatter::CURRENCY);
 					<!-- Gabarit d'une option de thème -->
 					<?php foreach ($themes as $unTheme) : ?>
 						<option
-							<?= ($filtre == $unTheme['id']) ? ' selected ' : ''; ?>
-							value="<?= $unTheme['id']; ?>">
-							<?= $unTheme['nom']; ?>
+							<?= ($filtre == $unTheme->id) ? ' selected ' : ''; ?>
+							value="<?= $unTheme->id; ?>">
+							<?= $unTheme->nom; ?>
 						</option>
 					<?php endforeach; ?>
 				</select>

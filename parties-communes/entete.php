@@ -1,4 +1,9 @@
 <?php
+// Inclue la librairie SQL
+include('lib/sql.lib.php');
+// Obtenir une connexion (qui sera disponnible sur toutes les pages du site)
+$cnx = connexion();
+
 // Inclure la librairie d'i18n.
 include('lib/i18n.lib.php');
 $languesDispo = obtenirLanguesDisponibles();
